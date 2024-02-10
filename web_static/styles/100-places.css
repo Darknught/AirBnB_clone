@@ -100,12 +100,13 @@ footer {
 .reviews li {
 	padding-bottom: 3px;
 }
+
 .amenities h2, .reviews h2{
 	font-size: 16px;
 	border-bottom: 1px solid #dddddd;
-	min-height: 0;
-	width: 100%;
 	text-align: left;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
 .pet {
 	background: url('../images/icon_pets.png') no-repeat;
@@ -125,15 +126,15 @@ footer {
 
 .reviews {
 	margin-top: 40px;
-	width: 100%;
-	flex: 1;
+	font-size: 16px;
+
 }
 .reviews h3 {
-	font-size: 16px;
+	font-size: 14px;
 	text-align: left;
 	padding-left: 0;
+    flex-basis: 100%;
 } 
 .reviews p{
-	font-size: 16px;
-	margin-top: -10px;
+	font-size: 12px;
 }

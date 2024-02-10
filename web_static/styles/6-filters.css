@@ -1,7 +1,7 @@
 /* Location and amenities */
 .locations,
 .amenities {
-    height: 100%;
+    /* height: 100%;*/
     width: 25%;
     display: inline-block;
     position: relative;
